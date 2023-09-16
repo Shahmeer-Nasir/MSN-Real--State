@@ -9,4 +9,4 @@
   3) Run `npm start` to view project in browser
   
 # MSN-Real-State
-A real state website built on Next13.2 and Tailwind 3.1
+A dynamic real state website built on Next13.2 and Tailwind 3.1 and backed-up by Supabase.
