@@ -32,7 +32,7 @@ const Contact = () => {
               />
               <input
                 className="font-roboto text-base bg-[transparent] self-stretch flex-1 rounded flex flex-col py-4 px-3 items-start justify-center border-[1px] border-solid border-gray1 md:flex-[unset] md:self-stretch"
-                value="Last name"
+                // value="Last name"
                 placeholder="Last name"
                 type="text"
                 required="true"

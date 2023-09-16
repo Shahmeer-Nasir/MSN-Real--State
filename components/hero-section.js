@@ -7,7 +7,7 @@ const HeroSection = () => {
   const router = useRouter();
 
   const onSearchCTAClick = () => {
-    router.push("/properties-grid-view");
+    router.push("/properties");
   };
 
   return (

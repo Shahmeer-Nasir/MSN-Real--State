@@ -2,7 +2,9 @@ import { TextField, InputAdornment, Icon, IconButton } from "@mui/material";
 import Link from "next/link";
 
 const PropertyRentCard = ({
-  imageDimensions,
+  imgUrl,
+  name,
+  price,
   imageDimensionsText,
   imageDimensionsText2,
   imageDimensionsText3,
@@ -11,21 +13,21 @@ const PropertyRentCard = ({
   return (
     <Link
       className="cursor-pointer [text-decoration:none] flex-1 rounded-3xs bg-gray-white box-border h-[466.99px] flex flex-col py-[15px] px-[13px] items-start justify-start gap-[23px] min-w-[355px] max-w-[400px] text-left text-[14.51px] text-gray-700 font-body-large-400 border-[1px] border-solid border-whitesmoke-100 hover:bg-gainsboro hover:cursor-pointer sm:w-[100%!important] sm:mb-5"
-      href="/properties-grid-view"
+      href="/properties"
     >
       <img
         className="self-stretch relative rounded-3xs max-w-full overflow-hidden h-[200px] shrink-0 object-cover"
         alt=""
-        src={imageDimensions}
+        src={imgUrl}
       />
       <div className="self-stretch flex flex-row p-2.5 items-start justify-start">
         <div className="flex-1 relative leading-[20.32px] font-medium">
-          92 ALLIUM PLACE, ORLANDO FL 32827
+          {name}
         </div>
       </div>
       <div className="self-stretch flex flex-row p-2.5 items-start justify-start text-[13.55px] text-primary-500">
         <div className="relative leading-[18.98px] font-semibold">
-          $ 590,693
+          $ {price}
         </div>
       </div>
       <div className="self-stretch flex flex-row py-0 px-2.5 items-start justify-start gap-[17px] text-[10.84px] text-gray-500">
@@ -68,15 +70,6 @@ const PropertyRentCard = ({
           </div>
         </div>
         <div className="flex flex-row items-start justify-start gap-[8.71px]">
-          <TextField
-            className="[border:none] bg-[transparent]"
-            color="primary"
-            label="Label"
-            size="medium"
-            placeholder="Placeholder"
-            variant="standard"
-            type="text"
-          />
           <div className="rounded-[1.45px] bg-primary-50 flex flex-row p-[2.902620315551758px] items-start justify-start">
             <img
               className="relative w-[14.51px] h-[14.51px]"
