@@ -1,0 +1,92 @@
+import PropertyCard from "./property-card";
+
+const PropertiesGridContainer = () => {
+  return (
+    <div className="self-stretch flex flex-row flex-wrap items-start justify-center text-left text-[14.51px] text-gray-700 font-body-large-400">
+      <div className="flex-1 flex flex-row flex-wrap items-start justify-center gap-[8px]">
+        <PropertyCard
+          imageDimensions="/property-image3@2x.png"
+          imageDimensionsText="/car2.svg"
+          imageDimensionsText2="/bathtub1.svg"
+          imageDimensionsText3="/arrowsout3.svg"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork.svg"
+          imageDimensionsText6="/heart1.svg"
+          imageDimensionsText7="/plus3.svg"
+        />
+        <PropertyCard
+          imageDimensions="/property-image4@2x.png"
+          imageDimensionsText="/car3.svg"
+          imageDimensionsText2="/bathtub2.svg"
+          imageDimensionsText3="/arrowsout3.svg"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork1.svg"
+          imageDimensionsText6="/heart2.svg"
+          imageDimensionsText7="/plus4.svg"
+        />
+        <PropertyCard
+          imageDimensions="/property-image5@2x.png"
+          imageDimensionsText="/car4.svg"
+          imageDimensionsText2="/bathtub3.svg"
+          imageDimensionsText3="/arrowsout3.svg"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork.svg"
+          imageDimensionsText6="/heart1.svg"
+          imageDimensionsText7="/plus3.svg"
+        />
+        <PropertyCard
+          imageDimensions="/property-image6@2x.png"
+          imageDimensionsText="/car3.svg"
+          imageDimensionsText2="/bathtub2.svg"
+          imageDimensionsText3="/arrowsout3.svg"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork2.svg"
+          imageDimensionsText6="/heart2.svg"
+          imageDimensionsText7="/plus5.svg"
+        />
+        <PropertyCard
+          imageDimensions="/property-image3@2x.png"
+          imageDimensionsText="/car2.svg"
+          imageDimensionsText2="/bathtub1.svg"
+          imageDimensionsText3="/arrowsout3.svg"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork2.svg"
+          imageDimensionsText6="/heart.svg"
+          imageDimensionsText7="/plus2.svg"
+        />
+        <PropertyCard
+          imageDimensions="/property-image7@2x.png"
+          imageDimensionsText="/car5.svg"
+          imageDimensionsText2="/bathtub4.svg"
+          imageDimensionsText3="/arrowsout4.svg"
+          imageDimensionsText4="/ellipse-11@2x.png"
+          imageDimensionsText5="/sharenetwork3.svg"
+          imageDimensionsText6="/heart3.svg"
+          imageDimensionsText7="/plus6.svg"
+        />
+        <PropertyCard
+          imageDimensions="/property-image8@2x.png"
+          imageDimensionsText="/car6.svg"
+          imageDimensionsText2="/bathtub5.svg"
+          imageDimensionsText3="/arrowsout4.svg"
+          imageDimensionsText4="/ellipse-11@2x.png"
+          imageDimensionsText5="/sharenetwork4.svg"
+          imageDimensionsText6="/heart4.svg"
+          imageDimensionsText7="/plus7.svg"
+        />
+        <PropertyCard
+          imageDimensions="/property-image9@2x.png"
+          imageDimensionsText="/car5.svg"
+          imageDimensionsText2="/bathtub4.svg"
+          imageDimensionsText3="/arrowsout4.svg"
+          imageDimensionsText4="/ellipse-11@2x.png"
+          imageDimensionsText5="/sharenetwork5.svg"
+          imageDimensionsText6="/heart3.svg"
+          imageDimensionsText7="/plus8.svg"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default PropertiesGridContainer;
